@@ -1,0 +1,47 @@
+/* Reset default browser styles */
+body, h1, p, footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Cute font */
+    background-image: url('moon.jpg'); /* Set background image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: #333;
+    padding: 20px;
+    text-align: center; /* Center-align text */
+    min-height: 100vh; /* Ensure the body takes up the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between content and footer */
+}
+
+/* Heading styles */
+h1 {
+    font-size: 36px; /* Increase font size for headings */
+    color: #333;
+    margin-bottom: 20px; /* Increase margin for spacing */
+}
+
+/* Paragraph styles */
+p {
+    font-size: 20px; /* Increase font size for paragraphs */
+    line-height: 1.6;
+    margin: 20px auto; /* Add margins to simulate poem spacing */
+    max-width: 600px; /* Limit the width of the paragraphs */
+    text-align: left; /* Align text to the left for poem style */
+    padding: 10px; /* Add padding for better readability */
+    background: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent background to paragraphs for readability */
+    border-radius: 10px; /* Optional: Add border-radius for better aesthetics */
+}
+
+/* Footer styles */
+footer {
+    color: white; /* White text color for visibility */
+    font-size: 16px; /* Adjust font size */
+    padding: 10px 0; /* Padding for spacing */
+}
